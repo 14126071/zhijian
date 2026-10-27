@@ -1,0 +1,119 @@
+{
+  "id": "jerusalem",
+  "title": "耶路撒冷三千年",
+  "author": "西蒙·蒙蒂菲奥里",
+  "category": "历史 / 城市传记",
+  "description": "一座小城，如何承载整个世界？\n沿着信仰、人物与家族，走进三千年的城市记忆。",
+  "cover_asset": "cover-city.svg",
+  "cover_title": "耶路撒冷\n三千年",
+  "cover_alt": "圣城建筑意象，非原书封面",
+  "source_pdf": "/Users/billson/Downloads/耶路撒冷三千年.pdf",
+  "source_total_pages": 1141,
+  "notes": [
+    {
+      "id": "jerusalem-overview",
+      "file": "notes/00-overview.md",
+      "title": "全书概览：一座小城，如何承载整个世界",
+      "source_ranges": [
+        {
+          "section": "目录",
+          "pdf_pages": [
+            6,
+            18
+          ]
+        },
+        {
+          "section": "前言",
+          "pdf_pages": [
+            21,
+            39
+          ]
+        }
+      ],
+      "status": "基于目录与前言",
+      "version": 1,
+      "label": "全书概览",
+      "display_title": "一座小城，\n如何承载整个世界",
+      "summary": "九部分阅读地图 · 两个耶路撒冷 · 接下来怎么读",
+      "reading_boundary": "本篇只依据目录与前言整理。先看见全书的轮廓，再一页一页走进去。",
+      "pdf_export": "overview.pdf"
+    },
+    {
+      "id": "jerusalem-part-01",
+      "file": "notes/01-judaism.md",
+      "title": "第一部分 · 犹太教：王城、圣殿与流亡",
+      "label": "第一部分 · 犹太教",
+      "display_title": "王城、圣殿与流亡\n第一部分 · 犹太教",
+      "summary": "13章正文蒸馏 · 七阶段主线 · 圣殿与希律家族图解",
+      "reading_boundary": "依据第一部分第1—13章正文及章末注释整理。PDF第60—292页；未扩读序幕或第二部分。",
+      "source_ranges": [
+        {
+          "section": "第一部分题辞",
+          "pdf_pages": [
+            60,
+            61
+          ]
+        },
+        {
+          "section": "第1—13章正文及注释",
+          "pdf_pages": [
+            62,
+            292
+          ]
+        }
+      ],
+      "status": "依据第1—13章正文",
+      "version": 1,
+      "part": 1,
+      "chapter_count": 13
+    }
+  ],
+  "reading_progress": "第一部分 · 第1—13章",
+  "parts": [
+    {
+      "title": "犹太教",
+      "note_id": "jerusalem-part-01",
+      "status": "已整理第1—13章"
+    },
+    {
+      "title": "异教",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    },
+    {
+      "title": "基督教",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    },
+    {
+      "title": "伊斯兰教",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    },
+    {
+      "title": "十字军东征",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    },
+    {
+      "title": "马木鲁克",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    },
+    {
+      "title": "奥斯曼",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    },
+    {
+      "title": "帝国",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    },
+    {
+      "title": "犹太复国主义",
+      "note_id": null,
+      "status": "正文尚未蒸馏"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "zhijian",
+  "version": "0.1.0",
+  "private": true,
+  "description": "纸间 · 图文读书档案",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node website/build.mjs",
+    "check": "node --check website/build.mjs && node --check website/app.js"
+  },
+  "dependencies": { "marked": "17.0.5" }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "ming-dynasty",
+  "title": "明朝那些事儿",
+  "cover_title": "明朝\n那些事儿",
+  "author": "当年明月",
+  "description": "从失去依靠，到拥有立足之地。\n沿着前七章，看见个人选择、组织与时代的交织。",
+  "category": "历史 / 通俗叙事",
+  "source_pdf": "/Users/billson/Downloads/[明朝那些事儿]全七本精编.当年明月 .pdf",
+  "source_total_pages": 1918,
+  "reading_progress": "第1册 · 第1—7章",
+  "parts": [
+    {
+      "title": "第1册 · 洪武大帝",
+      "note_id": "ming-dynasty-chapters-01-07",
+      "status": "已整理第1—7章；其余未读"
+    },
+    {
+      "title": "第2册",
+      "note_id": null,
+      "status": "正文尚未阅读"
+    },
+    {
+      "title": "第3册",
+      "note_id": null,
+      "status": "正文尚未阅读"
+    },
+    {
+      "title": "第4册",
+      "note_id": null,
+      "status": "正文尚未阅读"
+    },
+    {
+      "title": "第5册",
+      "note_id": null,
+      "status": "正文尚未阅读"
+    },
+    {
+      "title": "第6册",
+      "note_id": null,
+      "status": "正文尚未阅读"
+    },
+    {
+      "title": "第7册",
+      "note_id": null,
+      "status": "正文尚未阅读"
+    }
+  ],
+  "notes": [
+    {
+      "id": "ming-dynasty-overview",
+      "file": "notes/00-overview.md",
+      "title": "开卷导读：从求生到立足",
+      "label": "开卷导读",
+      "display_title": "从求生到立足\n前七章的阅读入口",
+      "summary": "前言与引子 · 七章阅读路线 · 怎样区分事件与解释",
+      "reading_boundary": "依据第1册目录、前言与引子建立阅读入口；未通读七册。",
+      "source_ranges": [
+        {
+          "section": "第1册目录",
+          "pdf_pages": [
+            2,
+            2
+          ]
+        },
+        {
+          "section": "前言与引子",
+          "pdf_pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "status": "基于本文件目录、前言与引子",
+      "version": 1
+    },
+    {
+      "id": "ming-dynasty-chapters-01-07",
+      "file": "notes/01-chapters-01-07.md",
+      "title": "第1册·第1—7章：一个人怎样获得立足之地",
+      "label": "第1册 · 第1—7章",
+      "display_title": "一个人怎样获得立足之地\n第1册 · 第1—7章",
+      "summary": "七章逐章蒸馏 · 五阶段时间线 · 人物与势力关系图",
+      "reading_boundary": "依据第1册第1—7章正文，PDF第5—30页。第31页仅用于核对第八章边界，未纳入其内容。",
+      "source_ranges": [
+        {
+          "section": "第一章·童年",
+          "pdf_pages": [
+            5,
+            7
+          ]
+        },
+        {
+          "section": "第二章·灾难",
+          "pdf_pages": [
+            7,
+            11
+          ]
+        },
+        {
+          "section": "第三章·踏上征途",
+          "pdf_pages": [
+            11,
+            15
+          ]
+        },
+        {
+          "section": "第四章·就从这里起步",
+          "pdf_pages": [
+            15,
+            19
+          ]
+        },
+        {
+          "section": "第五章·储蓄资本",
+          "pdf_pages": [
+            19,
+            23
+          ]
+        },
+        {
+          "section": "第六章·霸业的开始",
+          "pdf_pages": [
+            23,
+            25
+          ]
+        },
+        {
+          "section": "第七章·可怕的对手",
+          "pdf_pages": [
+            25,
+            30
+          ]
+        }
+      ],
+      "status": "已读第1册第1—7章正文",
+      "version": 1,
+      "part": 1,
+      "chapter_count": 7
+    }
+  ]
+}

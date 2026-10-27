@@ -1,0 +1,9 @@
+/tmp/
+/website/dist/
+/website/preview-*.png
+.DS_Store
+node_modules/
+.env
+.env.*
+*.pdf
+!books/*/exports/*.pdf

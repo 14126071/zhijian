@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!-- ==================================================================
+     LONG DOCUMENT TEMPLATE · parchment design system
+     多页 A4 白皮书/技术报告/年度总结
+     结构：封面 -> 目录 -> 执行摘要 -> 正文章节 -> 附录
+     ================================================================== -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>耶路撒冷三千年 · 全书概览</title>
+<meta name="author" content="Billson 的读书档案">
+<meta name="description" content="仅依据目录与前言整理的图文阅读地图">
+<meta name="keywords" content="耶路撒冷,读书,目录,前言,城市传记">
+<meta name="generator" content="Kami">
+<style>
+  /* Regular weight */
+  @font-face {
+    font-family: "TsangerJinKai02";
+    src: url("/Users/billson/.agents/skills/kami/assets/fonts/TsangerJinKai02-W04.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/tw93/Kami@main/assets/fonts/TsangerJinKai02-W04.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Bold weight - W05 for all bold variants */
+  @font-face {
+    font-family: "TsangerJinKai02";
+    src: url("/Users/billson/.agents/skills/kami/assets/fonts/TsangerJinKai02-W05.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/tw93/Kami@main/assets/fonts/TsangerJinKai02-W05.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @page {
+    size: A4;
+    margin: 20mm 22mm 22mm 22mm;
+    background: #f5f4ed;
+
+    @top-right {
+      content: string(section-title);
+      font-family: "TsangerJinKai02", "Source Han Serif SC",
+                   "Noto Serif CJK SC", "Songti SC", Georgia, serif;
+      font-size: 8pt;
+      color: #6b6a64;
+    }
+
+    @bottom-center {
+      content: counter(page) "  ·  耶路撒冷三千年 · 全书概览";
+      font-family: "TsangerJinKai02", "Source Han Serif SC",
+                   "Noto Serif CJK SC", "Songti SC", Georgia, serif;
+      font-size: 9pt;
+      color: #6b6a64;
+    }
+  }
+
+  @page:first {
+    @top-right { content: ""; }
+    @bottom-center { content: ""; }
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --parchment: #f5f4ed;
+    --ivory:     #faf9f5;
+    --near-black:#141413;
+    --dark-warm: #3d3d3a;
+    --olive:     #504e49;
+    --stone:     #6b6a64;
+    --brand:     #1B365D;
+    --border:    #e8e6dc;
+    --border-soft:#e5e3d8;
+    --tag-bg:    #E4ECF5;
+    --serif: "TsangerJinKai02", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", Georgia, serif;
+    --sans: var(--serif);
+
+    --rhythm-module:  14pt;
+    --rhythm-section: 18pt;
+  }
+
+  html, body { background: var(--parchment); }
+
+  @media screen {
+    body { max-width: 210mm; margin: 0 auto; padding: 20mm 22mm 22mm 22mm; }
+  }
+
+  body {
+    color: var(--near-black);
+    font-family: var(--serif);
+    font-size: 10.5pt;
+    line-height: 1.55;
+    letter-spacing: 0.3pt;
+    widows: 3;
+    orphans: 3;
+  }
+
+  .sans {
+    font-family: var(--sans);
+  }
+
+  /* ========== COVER ========== */
+  .cover {
+    min-height: 240mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40mm 0 0 0;
+    break-after: page;
+  }
+  .cover-eyebrow {
+    font-family: var(--sans);
+    font-size: 10pt;
+    color: var(--brand);
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+    margin-bottom: 18pt;
+  }
+  .cover-title {
+    font-size: 36pt;
+    font-weight: 500;
+    color: var(--near-black);
+    line-height: 1.15;
+    letter-spacing: 0.3pt;
+    margin-bottom: 16pt;
+  }
+  .cover-sub {
+    font-family: var(--sans);
+    font-size: 14pt;
+    color: var(--olive);
+    line-height: 1.5;
+    max-width: 85%;
+    margin-bottom: 30pt;
+  }
+  .cover-meta {
+    font-family: var(--sans);
+    font-size: 10pt;
+    color: var(--stone);
+    line-height: 1.5;
+  }
+  .cover-meta strong {
+    color: var(--dark-warm);
+    font-weight: 500;
+  }
+
+  /* ========== TOC（目录）========== */
+  .toc { break-after: page; }
+  .toc h2 {
+    font-size: 22pt;
+    font-weight: 500;
+    margin-bottom: var(--rhythm-module);
+    border-left: 2.5pt solid var(--brand);
+    border-radius: 1.5pt;
+    padding-left: 8pt;
+  }
+  .toc-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6pt 0;
+    border-bottom: 0.3pt dotted var(--border);
+    font-size: 11pt;
+  }
+  .toc-item:last-of-type { border-bottom: none; }
+  .toc-num {
+    color: var(--brand);
+    font-weight: 500;
+    min-width: 30pt;
+  }
+  .toc-title {
+    flex: 1;
+    color: var(--near-black);
+    padding-left: 6pt;
+  }
+  .toc-page {
+    color: var(--stone);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ========== HEADINGS ========== */
+  h1 {
+    font-size: 22pt;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 10pt 0;
+    border-left: 2.5pt solid var(--brand);
+    border-radius: 1.5pt;
+    padding-left: 8pt;
+    color: var(--near-black);
+    break-after: avoid;
+  }
+
+  h2 {
+    font-size: 16pt;
+    font-weight: 500;
+    line-height: 1.25;
+    margin: 24pt 0 8pt 0;
+    color: var(--near-black);
+    break-after: avoid;
+    string-set: section-title content();
+  }
+
+  h3 {
+    font-size: 13pt;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 18pt 0 6pt 0;
+    color: var(--dark-warm);
+    break-after: avoid;
+  }
+
+  .chapter-num {
+    font-family: var(--sans);
+    font-size: 10pt;
+    color: var(--brand);
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+    margin-bottom: 6pt;
+  }
+
+  /* ========== PARAGRAPHS ========== */
+  p {
+    margin: 0 0 10pt 0;
+    line-height: 1.55;
+    color: var(--near-black);
+    widows: 2;
+    orphans: 2;
+  }
+
+  .lead {
+    font-size: 12pt;
+    line-height: 1.55;
+    color: var(--dark-warm);
+    margin-bottom: var(--rhythm-module);
+  }
+
+  .hl { color: var(--brand); font-weight: 500; }
+  strong { font-weight: 500; }
+
+  /* ========== LISTS ========== */
+  ul, ol {
+    margin: 6pt 0 10pt 0;
+    padding-left: 20pt;
+    line-height: 1.55;
+  }
+  ul li::marker { color: var(--brand); }
+  ol li::marker { color: var(--brand); font-weight: 500; }
+
+  /* ========== QUOTE ========== */
+  blockquote, .quote {
+    border-left: 2pt solid var(--brand);
+    margin: 12pt 0;
+    padding: 4pt 0 4pt 16pt;
+    color: var(--olive);
+    line-height: 1.55;
+    break-inside: avoid;
+  }
+  blockquote .cite, .quote .cite {
+    display: block;
+    font-size: 9pt;
+    color: var(--stone);
+    margin-top: 4pt;
+  }
+
+  /* ========== CODE ========== */
+  /* Mono first for English glyphs, then CJK fallback so Chinese comments
+     inside code/pre render correctly. A mono-only chain causes missing
+     glyphs rendered as "?" or missing-glyph boxes in WeasyPrint when the system lacks
+     a mono font with CJK coverage. */
+  code {
+    font-family: "JetBrains Mono", "SF Mono", Consolas,
+                 "TsangerJinKai02", "Source Han Serif SC",
+                 "Noto Serif CJK SC", "Songti SC", monospace;
+    font-size: 9pt;
+    background: var(--ivory);
+    padding: 1pt 4pt;
+    border-radius: 2pt;
+    color: var(--dark-warm);
+  }
+  pre {
+    font-family: "JetBrains Mono", "SF Mono", Consolas,
+                 "TsangerJinKai02", "Source Han Serif SC",
+                 "Noto Serif CJK SC", "Songti SC", monospace;
+    font-size: 9pt;
+    line-height: 1.5;
+    background: var(--ivory);
+    border-radius: 4pt;
+    padding: 10pt 14pt;
+    margin: 10pt 0;
+    white-space: pre-wrap;
+    color: var(--near-black);
+    break-inside: avoid;
+  }
+  pre code { background: transparent; padding: 0; font-size: inherit; }
+
+  /* ========== TABLE (kami-table) ========== */
+  table, .kami-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9.5pt;
+    margin: 12pt 0;
+    break-inside: avoid;
+  }
+  table th, .kami-table th {
+    text-align: left;
+    font-weight: 500;
+    color: var(--dark-warm);
+    padding: 6pt 8pt;
+    border-bottom: 1pt solid var(--border);
+    background: transparent;
+  }
+  table td, .kami-table td {
+    padding: 5pt 8pt;
+    border-bottom: 0.3pt solid var(--border-soft);
+    vertical-align: top;
+  }
+  table.compact th, .kami-table.compact th { padding: 3pt 6pt; font-size: 8pt; }
+  table.compact td, .kami-table.compact td { padding: 2pt 6pt; font-size: 8pt; line-height: 1.4; }
+  table.financial td:not(:first-child), .kami-table.financial td:not(:first-child) {
+    text-align: right; font-variant-numeric: tabular-nums;
+  }
+  table.financial th:not(:first-child), .kami-table.financial th:not(:first-child) { text-align: right; }
+  table.striped tbody tr:nth-child(even) td, .kami-table.striped tbody tr:nth-child(even) td {
+    background: var(--ivory);
+  }
+  table .total td, .kami-table .total td {
+    font-weight: 500; border-top: 1pt solid var(--brand); border-bottom: none; color: var(--near-black);
+  }
+
+  /* ========== CALLOUT ========== */
+  .callout {
+    background: var(--ivory);
+    border-left: 2pt solid var(--brand);
+    padding: 10pt 14pt;
+    border-radius: 3pt;
+    margin: 12pt 0;
+    line-height: 1.55;
+    break-inside: avoid;
+  }
+  .callout blockquote,
+  .callout .quote {
+    border-left: none;
+    padding-left: 0;
+    margin: 6pt 0;
+    color: var(--olive);
+  }
+  .callout blockquote:first-child,
+  .callout .quote:first-child { margin-top: 0; }
+  .callout blockquote:last-child,
+  .callout .quote:last-child  { margin-bottom: 0; }
+
+  .takeaway {
+    background: var(--ivory);
+    border-radius: 4pt;
+    padding: 10pt 14pt;
+    margin: 14pt 0;
+    break-inside: avoid;
+  }
+  .takeaway-label {
+    font-family: var(--sans);
+    font-size: 9pt;
+    color: var(--brand);
+    letter-spacing: 0.5pt;
+    text-transform: uppercase;
+    margin-bottom: 4pt;
+  }
+
+  /* ========== TAG ========== */
+  .tag {
+    display: inline-block;
+    background: var(--tag-bg);
+    color: var(--brand);
+    font-family: var(--sans);
+    font-size: 9pt;
+    font-weight: 500;
+    padding: 1pt 6pt;
+    border-radius: 3pt;
+    margin-right: 4pt;
+  }
+
+  /* ========== FIGURE ========== */
+  figure {
+    margin: 14pt 0;
+    break-inside: avoid;
+  }
+  figure img {
+    max-width: 100%;
+    border-radius: 4pt;
+  }
+  figcaption {
+    font-family: var(--sans);
+    font-size: 9pt;
+    color: var(--stone);
+    margin-top: 6pt;
+    text-align: center;
+  }
+
+  /* ========== EXECUTIVE SUMMARY ========== */
+  .exec-summary {
+    background: var(--ivory);
+    border-left: 1.4pt solid var(--brand);
+    border-radius: 6pt;
+    padding: 16pt 20pt;
+    margin: 14pt 0;
+    break-inside: avoid;
+  }
+  .exec-summary h2 {
+    margin-top: 0;
+    font-size: 13pt;
+  }
+
+  /* ========== CHAPTER BREAK ========== */
+  .chapter { break-before: page; }
+</style>
+<style>
+@media screen {body{max-width:1000px;padding:64px 56px 80px;font-size:18px;line-height:1.65;letter-spacing:.1px}h1{font-size:44px;line-height:1.2;font-weight:500;margin:22px 0 32px}h2{font-size:29px;font-weight:500;margin:64px 0 22px;border-left:3px solid #1b365d;padding-left:15px}h3{font-size:23px;font-weight:500;margin:32px 0 12px}p{margin:14px 0}aside{padding:20px 24px;border:1px solid #e8e6dc;color:#504e49;background:#faf9f5;font-size:15px;line-height:1.65}figure{margin:30px -12px}img{display:block;width:100%;height:auto}table{font-size:16px;line-height:1.6;margin:25px 0}td,th{padding:12px 10px;vertical-align:top}.eyebrow{font-size:13px;letter-spacing:2px;color:#1b365d;border-bottom:1px solid #e8e6dc;padding-bottom:20px}.listitem{padding-left:12px}strong{font-weight:500}code{font-size:14px}footer{margin-top:64px;color:#6b6a64;font-size:13px;border-top:1px solid #e8e6dc;padding-top:24px}}
+@media(max-width:620px){body{padding:30px 22px;font-size:17px}h1{font-size:32px}h2{font-size:25px}h3{font-size:21px}figure{margin:24px -12px}table{font-size:14px}td,th{padding:9px 5px}}
+</style></head>
+<body><header class="eyebrow">读书档案 / 耶路撒冷三千年 / 001</header><main><h1>全书概览：一座小城，如何承载整个世界</h1><aside>阅读边界：本篇只依据目录与前言，不包含序幕、正文或后记的内容总结。页码均指这份PDF从第一页开始计算的文件页码。“今天”“当今”等表述若涉及原书观点，属于作者写作时的语境，不代表2026年的局势。</aside><!-- block: core-question --><h2>01 · 这本书究竟在讲什么</h2><p><strong>一句话：作者以人物与家族为线索，按时间顺序讲述耶路撒冷如何被建造、毁坏、记忆和重新解释，逐渐成为多种信仰、帝国与民族诉求交汇的城市。</strong></p><p>它的中心问题是：为什么偏偏是耶路撒冷？前言指出，这座城市自然条件并不优越，远离海岸贸易路线、缺水，却吸引了远超其规模的情感与权力投入。理解它，需要同时看见现实中的居民与统治者，以及人们不断投射到它身上的神圣意义。[前言，PDF第21—27页]</p><p>全书的基本写法是“城市传记”：时间是骨架，人物与家族是叙事载体。作者希望把古代王城、三大宗教、帝国竞争和现代民族运动放在同一条历史线上，但不把后来的结局写成早已注定的结果。[前言，PDF第28—34页]</p><!-- block: book-map --><h2>02 · 先看全书地图</h2><figure><img alt="九部分阅读地图" src="../assets/overview-map.png"></figure><p>图中时间表示目录的叙事范围，轴线不按年数比例绘制。分部以宗教、王朝或运动命名，只是在强调叙事重心；不能理解为某一信仰出现后，之前的人群就消失了。</p><h3>01 · 犹太教｜第1—13章｜古代起源—公元70年</h3><p><strong>王城、圣殿与流亡。</strong> 目录中的主要节点包括：大卫、所罗门、巴比伦、希律、耶稣、犹太战争。</p><p>带着这个问题读：王城与圣殿如何成为共同体的中心？毁灭之后，记忆如何延续？</p><h3>02 · 异教｜第14章｜70—312年</h3><p><strong>罗马重新定义城市。</strong> 目录中的主要节点包括：罗马统治、哈德良、巴尔·科赫巴。</p><p>带着这个问题读：征服者如何通过改造城市与圣地，重写它的身份？</p><h3>03 · 基督教｜第15—16章｜312—630年</h3><p><strong>基督教圣城的塑造。</strong> 目录中的主要节点包括：君士坦丁、海伦娜、拜占庭、波斯入侵。</p><p>带着这个问题读：帝国的支持与对圣迹的追寻，如何改变城市的宗教重心？</p><h3>04 · 伊斯兰教｜第17—20章｜630—1099年</h3><p><strong>新的信仰进入旧圣地。</strong> 目录中的主要节点包括：阿拉伯征服、倭玛亚、阿拔斯、法蒂玛。</p><p>带着这个问题读：新信仰如何解释和利用已有的神圣空间？</p><h3>05 · 十字军东征｜第21—28章｜1099—1250年</h3><p><strong>圣战、王国与重新争夺。</strong> 目录中的主要节点包括：十字军王国、梅利桑德、萨拉丁、理查。</p><p>带着这个问题读：宗教目标如何与王朝、战争、外交和个人命运交织？</p><h3>06 · 马木鲁克｜第29—30章｜1250—1517年</h3><p><strong>苏丹统治下的朝圣之城。</strong> 目录中的主要节点包括：拜巴尔斯、纳西尔·穆罕默德、朝圣活动。</p><p>带着这个问题读：聚光灯之外，这座城市如何继续生活？</p><h3>07 · 奥斯曼｜第31—33章｜1517—1799年</h3><p><strong>帝国、城墙与地方家族。</strong> 目录中的主要节点包括：苏莱曼、神秘主义者、弥赛亚、地方家族。</p><p>带着这个问题读：中央权力、地方家族与宗教生活怎样共同塑造城市？</p><h3>08 · 帝国｜第34—41章｜1799—1898年</h3><p><strong>世界重新把目光投向圣城。</strong> 目录中的主要节点包括：拿破仑、欧洲列强、传教士、旅行者、考古学家。</p><p>带着这个问题读：遥远的强国、宗教想象与知识生产，如何介入本地生活？</p><h3>09 · 犹太复国主义｜第42—53章｜1898—1967年</h3><p><strong>民族诉求、托管与战争。</strong> 目录中的主要节点包括：赫茨尔、阿拉伯起义、英国托管、1948年、六日战争。</p><p>带着这个问题读：古老的神圣空间如何成为现代民族与国家诉求的焦点？</p><p>以上各部分的问题是根据目录提出的阅读线索，尚不是对各章论证结果的总结。[目录，PDF第6—18页]</p><!-- block: interpretive-model --><h2>03 · 前言给了我们怎样的理解框架</h2><figure><img alt="两个耶路撒冷与神圣性的累积" src="../assets/two-jerusalems.png"></figure><h3>一座现实城市，也是一座想象中的城市</h3><p>前言反复区分“尘世的”和“天国的”耶路撒冷。前者是具体的街道、居民、建筑与权力；后者存在于信仰、经典、预言和理想中。当人们认为现实城市不符合心中的圣城时，就可能试图改变它。宗教想象因此会进入实际历史，而不只停留在信徒心中。[PDF第22—24、30、39页]</p><h3>神圣性会通过记忆、传统与竞争而累积</h3><p>作者提出：一处地方因长久被尊崇而拥有传统的合法性，后来的信仰会解释、继承或争夺已有的圣地。毁灭也未必抹掉意义：作者以巴比伦毁城后的犹太记忆与经典书写为例，说明失去现实城市，有时反而促使它在共同体想象中变得更重要。[PDF第24—28、30—31页]</p><p>这不意味着城市的重要性始终上升。前言明确说，它也有衰落、被忽视的时期；来自远方的信仰与政治需要，常会重新激活人们对它的投入。[PDF第29页]</p><h3>冲突之外，还有共存、混合与日常生活</h3><p>前言特别提醒：这里有许多相互重叠的文化和身份，人不能总被分成两个对立阵营。家族延续、建筑改建、居民生活，是这部城市传记不可省去的内容。只记住征服者名单，会漏掉作者想展示的连续性。[PDF第28—31、33页]</p><!-- block: author-method --><h2>04 · 怎样理解作者的写法</h2><table><tr><th>阅读时要区分什么</th><th>前言给出的提示</th></tr><tr><td>历史事实与人们相信的历史</td><td>作者不裁定宗教神迹是否真实，但信仰对人的行动产生的影响，是历史的一部分。</td></tr><tr><td>作者的目标与实际实现程度</td><td>作者自述希望面向各信仰和无信仰读者、不服务于特定政治意图；是否做到，仍需读正文判断。</td></tr><tr><td>流畅叙事与证据确定性</td><td>作者承认早期史料与考古存在争议，并说明正文不会反复写出所有“也许”“可能”；叙述肯定不等于证据没有争论。</td></tr><tr><td>历史解释与今日立场</td><td>作者主张按时间顺序理解变化，避免以当下的关注重塑过去，也避免把结局写成必然。</td></tr></table><p>[前言，PDF第32—37页]</p><p>全书主体止于1967年。前言说明，后记会延伸讨论此后的发展，并以圣地清晨的描写收尾；本轮没有读取后记，因此不总结它的具体内容。[PDF第37—38页]</p><!-- block: reading-prompts --><h2>05 · 接下来怎么读，才不容易迷失</h2><p>不用一开始就记住所有人名。每读一段，先回答三个问题：</p><p class="listitem">1. <strong>谁在行动？</strong> 是统治者、家族、信仰共同体，还是本地居民？他们要改变什么？</p><p class="listitem">2. <strong>什么使这里重要？</strong> 是现实权力、经典记忆、朝圣传统，还是来自远方的期待？</p><p class="listitem">3. <strong>什么改变了，什么留下了？</strong> 城市易主后，建筑、居民、故事与日常生活怎样继续存在？</p><p>适合下一轮的追问：</p><p class="listitem">- “天国的耶路撒冷”如何影响“尘世的耶路撒冷”？先用前言中的例子解释。</p><p class="listitem">- 为什么毁灭可能强化一座城市的神圣性？这个说法适用到什么程度？</p><p class="listitem">- 作者为什么强调家族与共存，而不只讲宗教战争？</p><p>下一步可从序幕开始，或直接指定第一章的一小段；在确定范围后再读取。</p><!-- block: provenance --><h2>来源与更新记录</h2><p class="listitem">- 源文件：用户提供的《耶路撒冷三千年》PDF，共1141页。</p><p class="listitem">- 本篇依据：目录第6—18页；前言第21—39页。另核对了第3—5页的书目信息。</p><p class="listitem">- 未读取：序幕、九部分正文、后记、附录与致谢。</p><p class="listitem">- 两张图均为依据目录与前言绘制的辅助图，不是原书插图，也不是地理地图。</p><p class="listitem">- 本篇ID：<code>jerusalem-overview</code>。内容块ID用于后续局部替换；追问可另存为独立笔记，避免重新生成概览时覆盖。</p><p class="listitem">- 2026-10-26：首版，基于目录与前言。</p></main><footer>2026.10.26 · 依据目录与前言 · 内容源文件：notes/00-overview.md</footer></body></html>
