@@ -3,16 +3,16 @@
   "title": "明朝那些事儿",
   "cover_title": "明朝\n那些事儿",
   "author": "当年明月",
-  "description": "从应天立足，到龙湾、洪都与鄱阳湖。\n沿着人物、组织与战局变化，逐段读懂明朝的开端。",
+  "description": "从应天立足、统一战争，到建国与权力重组。\n沿着人物、组织与制度变化，逐段读懂明朝的开端。",
   "category": "历史 / 通俗叙事",
   "source_pdf": "/Users/billson/Downloads/[明朝那些事儿]全七本精编.当年明月 .pdf",
   "source_total_pages": 1918,
-  "reading_progress": "第1册 · 第1—12章",
+  "reading_progress": "第1册 · 第1—17章",
   "parts": [
     {
       "title": "第1册 · 洪武大帝",
-      "note_id": "ming-dynasty-chapters-08-12",
-      "status": "已整理第1—12章；其余未读"
+      "note_id": "ming-dynasty-chapters-13-17",
+      "status": "已整理第1—17章；其余未读"
     },
     {
       "title": "第2册",
@@ -183,6 +183,56 @@
         }
       ],
       "status": "已读第1册第8—12章正文",
+      "version": 1,
+      "part": 1,
+      "chapter_count": 5
+    },
+    {
+      "id": "ming-dynasty-chapters-13-17",
+      "file": "notes/03-chapters-13-17.md",
+      "title": "第1册·第13—17章：打下天下以后，怎样分配权力",
+      "label": "第1册 · 第13—17章",
+      "display_title": "打下天下以后，怎样分配权力\n第1册 · 第13—17章",
+      "summary": "平江与北伐 · 沙漠远征 · 建国选官 · 胡惟庸案与废相",
+      "reading_boundary": "第1册第13—17章，PDF第76—153页；起于第十三章标题，止于第十八章标题前。",
+      "source_ranges": [
+        {
+          "section": "第十三章·下一个目标，张士诚！",
+          "pdf_pages": [
+            76,
+            82
+          ]
+        },
+        {
+          "section": "第十四章·复仇",
+          "pdf_pages": [
+            82,
+            110
+          ]
+        },
+        {
+          "section": "第十五章·远征沙漠",
+          "pdf_pages": [
+            111,
+            115
+          ]
+        },
+        {
+          "section": "第十六章·建国",
+          "pdf_pages": [
+            116,
+            132
+          ]
+        },
+        {
+          "section": "第十七章·胡惟庸案件",
+          "pdf_pages": [
+            133,
+            153
+          ]
+        }
+      ],
+      "status": "已读第1册第13—17章正文",
       "version": 1,
       "part": 1,
       "chapter_count": 5
