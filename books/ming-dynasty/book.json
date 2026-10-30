@@ -3,16 +3,16 @@
   "title": "明朝那些事儿",
   "cover_title": "明朝\n那些事儿",
   "author": "当年明月",
-  "description": "从应天立足、统一战争，到建国、肃贪与制度的限度。\n沿着人物、组织与制度变化，逐段读懂明朝的开端。",
+  "description": "从应天立足、统一战争，到洪武落幕与建文削藩。\n沿着人物、组织与制度变化，逐段读懂明朝的开端。",
   "category": "历史 / 通俗叙事",
   "source_pdf": "/Users/billson/Downloads/[明朝那些事儿]全七本精编.当年明月 .pdf",
   "source_total_pages": 1918,
-  "reading_progress": "第1册 · 第1—22章",
+  "reading_progress": "第1册 · 第1—27章",
   "parts": [
     {
       "title": "第1册 · 洪武大帝",
-      "note_id": "ming-dynasty-chapters-18-22",
-      "status": "已整理第1—22章；其余未读"
+      "note_id": "ming-dynasty-chapters-23-27",
+      "status": "已整理第1—27章；其余未读"
     },
     {
       "title": "第2册",
@@ -283,6 +283,56 @@
         }
       ],
       "status": "已读第1册第18—22章正文",
+      "version": 1,
+      "part": 1,
+      "chapter_count": 5
+    },
+    {
+      "id": "ming-dynasty-chapters-23-27",
+      "file": "notes/05-chapters-23-27.md",
+      "title": "第1册·第23—27章：守护皇位的人，为什么成了争夺者",
+      "label": "第1册 · 第23—27章",
+      "display_title": "守护皇位的人，为什么成了争夺者\n第1册 · 第23—27章",
+      "summary": "洪武终章 · 建文削藩 · 朱棣与道衍 · 北平起兵与宁王",
+      "reading_boundary": "第1册第23—27章，PDF第208—260页；起于第二十三章标题，止于第二十八章标题前。",
+      "source_ranges": [
+        {
+          "section": "第二十三章·终点，起点",
+          "pdf_pages": [
+            208,
+            225
+          ]
+        },
+        {
+          "section": "第二十四章·建文帝",
+          "pdf_pages": [
+            226,
+            232
+          ]
+        },
+        {
+          "section": "第二十五章·等待中的朱棣",
+          "pdf_pages": [
+            232,
+            239
+          ]
+        },
+        {
+          "section": "第二十六章·准备行动",
+          "pdf_pages": [
+            240,
+            248
+          ]
+        },
+        {
+          "section": "第二十七章·不得不反了！",
+          "pdf_pages": [
+            248,
+            260
+          ]
+        }
+      ],
+      "status": "已读第1册第23—27章正文",
       "version": 1,
       "part": 1,
       "chapter_count": 5
