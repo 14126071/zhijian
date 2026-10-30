@@ -3,16 +3,16 @@
   "title": "明朝那些事儿",
   "cover_title": "明朝\n那些事儿",
   "author": "当年明月",
-  "description": "从失去依靠，到拥有立足之地。\n沿着前七章，看见个人选择、组织与时代的交织。",
+  "description": "从应天立足，到龙湾、洪都与鄱阳湖。\n沿着人物、组织与战局变化，逐段读懂明朝的开端。",
   "category": "历史 / 通俗叙事",
   "source_pdf": "/Users/billson/Downloads/[明朝那些事儿]全七本精编.当年明月 .pdf",
   "source_total_pages": 1918,
-  "reading_progress": "第1册 · 第1—7章",
+  "reading_progress": "第1册 · 第1—12章",
   "parts": [
     {
       "title": "第1册 · 洪武大帝",
-      "note_id": "ming-dynasty-chapters-01-07",
-      "status": "已整理第1—7章；其余未读"
+      "note_id": "ming-dynasty-chapters-08-12",
+      "status": "已整理第1—12章；其余未读"
     },
     {
       "title": "第2册",
@@ -136,6 +136,56 @@
       "version": 1,
       "part": 1,
       "chapter_count": 7
+    },
+    {
+      "id": "ming-dynasty-chapters-08-12",
+      "file": "notes/02-chapters-08-12.md",
+      "title": "第1册·第8—12章：怎样把险局变成胜局",
+      "label": "第1册 · 第8—12章",
+      "display_title": "怎样把险局变成胜局\n第1册 · 第8—12章",
+      "summary": "龙湾解围 · 洪都守城 · 鄱阳湖决战 · 军队与土地",
+      "reading_boundary": "第1册第8—12章，PDF第31—76页；第76页止于第十三章标题前。",
+      "source_ranges": [
+        {
+          "section": "第八章·可怕的陈友谅",
+          "pdf_pages": [
+            31,
+            34
+          ]
+        },
+        {
+          "section": "第九章·决战不可避免",
+          "pdf_pages": [
+            34,
+            46
+          ]
+        },
+        {
+          "section": "第十章·等待最好的时机",
+          "pdf_pages": [
+            46,
+            51
+          ]
+        },
+        {
+          "section": "第十一章·洪都的奇迹",
+          "pdf_pages": [
+            51,
+            64
+          ]
+        },
+        {
+          "section": "第十二章·鄱阳湖！决死战！",
+          "pdf_pages": [
+            65,
+            76
+          ]
+        }
+      ],
+      "status": "已读第1册第8—12章正文",
+      "version": 1,
+      "part": 1,
+      "chapter_count": 5
     }
   ]
 }
