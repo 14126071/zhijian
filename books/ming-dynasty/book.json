@@ -3,16 +3,16 @@
   "title": "明朝那些事儿",
   "cover_title": "明朝\n那些事儿",
   "author": "当年明月",
-  "description": "从应天立足、统一战争，到洪武落幕与建文削藩。\n沿着人物、组织与制度变化，逐段读懂明朝的开端。",
+  "description": "从朱元璋求生、创业与建国，到建文削藩、靖难与朱棣夺位。\n第1册已读完，沿着人物、组织与权力变化回望明朝的开端。",
   "category": "历史 / 通俗叙事",
   "source_pdf": "/Users/billson/Downloads/[明朝那些事儿]全七本精编.当年明月 .pdf",
   "source_total_pages": 1918,
-  "reading_progress": "第1册 · 第1—27章",
+  "reading_progress": "第1册 · 全册已读（第1—31章）",
   "parts": [
     {
       "title": "第1册 · 洪武大帝",
-      "note_id": "ming-dynasty-chapters-23-27",
-      "status": "已整理第1—27章；其余未读"
+      "note_id": "ming-dynasty-chapters-28-31",
+      "status": "第1册31章已全部整理；第2—7册未读"
     },
     {
       "title": "第2册",
@@ -336,6 +336,49 @@
       "version": 1,
       "part": 1,
       "chapter_count": 5
+    },
+    {
+      "id": "ming-dynasty-chapters-28-31",
+      "file": "notes/06-chapters-28-31.md",
+      "title": "第1册·第28—31章：赢得战争以后，皇位的疑问仍在",
+      "label": "第1册 · 第28—31章（终）",
+      "display_title": "赢得战争以后，皇位的疑问仍在\n第1册 · 第28—31章",
+      "summary": "北平与白沟河 · 济南与东昌 · 南下夺位 · 第1册回望",
+      "reading_boundary": "第1册第28—31章，PDF第260—310页；第260页起于第二十八章标题，第310页为第1册正文末页。第311页仅核对第二册边界。",
+      "source_ranges": [
+        {
+          "section": "第二十八章·你死我活的战争",
+          "pdf_pages": [
+            260,
+            273
+          ]
+        },
+        {
+          "section": "第二十九章·朱棣的对手",
+          "pdf_pages": [
+            273,
+            285
+          ]
+        },
+        {
+          "section": "第三十章·离胜利只差一步",
+          "pdf_pages": [
+            285,
+            299
+          ]
+        },
+        {
+          "section": "第三十一章·殉国、疑团、残暴、软弱",
+          "pdf_pages": [
+            299,
+            310
+          ]
+        }
+      ],
+      "status": "已读第1册第28—31章正文；第1册完成",
+      "version": 1,
+      "part": 1,
+      "chapter_count": 4
     }
   ]
 }
