@@ -3,16 +3,16 @@
   "title": "明朝那些事儿",
   "cover_title": "明朝\n那些事儿",
   "author": "当年明月",
-  "description": "从应天立足、统一战争，到建国与权力重组。\n沿着人物、组织与制度变化，逐段读懂明朝的开端。",
+  "description": "从应天立足、统一战争，到建国、肃贪与制度的限度。\n沿着人物、组织与制度变化，逐段读懂明朝的开端。",
   "category": "历史 / 通俗叙事",
   "source_pdf": "/Users/billson/Downloads/[明朝那些事儿]全七本精编.当年明月 .pdf",
   "source_total_pages": 1918,
-  "reading_progress": "第1册 · 第1—17章",
+  "reading_progress": "第1册 · 第1—22章",
   "parts": [
     {
       "title": "第1册 · 洪武大帝",
-      "note_id": "ming-dynasty-chapters-13-17",
-      "status": "已整理第1—17章；其余未读"
+      "note_id": "ming-dynasty-chapters-18-22",
+      "status": "已整理第1—22章；其余未读"
     },
     {
       "title": "第2册",
@@ -233,6 +233,56 @@
         }
       ],
       "status": "已读第1册第13—17章正文",
+      "version": 1,
+      "part": 1,
+      "chapter_count": 5
+    },
+    {
+      "id": "ming-dynasty-chapters-18-22",
+      "file": "notes/04-chapters-18-22.md",
+      "title": "第1册·第18—22章：严厉的命令，为什么不能解决一切",
+      "label": "第1册 · 第18—22章",
+      "display_title": "严厉的命令，为什么不能解决一切\n第1册 · 第18—22章",
+      "summary": "肃贪与冤案 · 蓝玉北征及覆灭 · 制度与变化的距离",
+      "reading_boundary": "第1册第18—22章，PDF第153—208页；起于第十八章标题，止于第二十三章标题前。",
+      "source_ranges": [
+        {
+          "section": "第十八章·扫除一切腐败者",
+          "pdf_pages": [
+            153,
+            158
+          ]
+        },
+        {
+          "section": "第十九章·冤案",
+          "pdf_pages": [
+            158,
+            170
+          ]
+        },
+        {
+          "section": "第二十章·最后的名将——蓝玉",
+          "pdf_pages": [
+            170,
+            189
+          ]
+        },
+        {
+          "section": "第二十一章·蓝玉的覆灭",
+          "pdf_pages": [
+            189,
+            195
+          ]
+        },
+        {
+          "section": "第二十二章·制度后的秘密",
+          "pdf_pages": [
+            196,
+            208
+          ]
+        }
+      ],
+      "status": "已读第1册第18—22章正文",
       "version": 1,
       "part": 1,
       "chapter_count": 5
