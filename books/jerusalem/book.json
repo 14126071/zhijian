@@ -66,9 +66,38 @@
       "version": 1,
       "part": 1,
       "chapter_count": 13
+    },
+    {
+      "id": "jerusalem-part-02",
+      "file": "notes/02-paganism.md",
+      "title": "第二部分 · 异教：一座城，三种延续",
+      "label": "第二部分 · 异教",
+      "display_title": "一座城，三种延续\n第二部分 · 异教",
+      "summary": "第14章图文蒸馏 · 六节点时间线 · 罗马、犹太人与基督徒的并行线索",
+      "reading_boundary": "仅依据第二部分题辞、第14章正文及注释整理，PDF第293—320页；未扩读序幕或第三部分。",
+      "source_ranges": [
+        {
+          "section": "第二部分题辞",
+          "pdf_pages": [
+            293,
+            294
+          ]
+        },
+        {
+          "section": "第14章正文及注释",
+          "pdf_pages": [
+            295,
+            320
+          ]
+        }
+      ],
+      "status": "依据第14章正文及注释",
+      "version": 1,
+      "part": 2,
+      "chapter_count": 1
     }
   ],
-  "reading_progress": "第一部分 · 第1—13章",
+  "reading_progress": "第二部分 · 第14章",
   "parts": [
     {
       "title": "犹太教",
@@ -77,8 +106,8 @@
     },
     {
       "title": "异教",
-      "note_id": null,
-      "status": "正文尚未蒸馏"
+      "note_id": "jerusalem-part-02",
+      "status": "已整理第14章"
     },
     {
       "title": "基督教",
