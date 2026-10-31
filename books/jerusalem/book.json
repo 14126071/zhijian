@@ -95,9 +95,45 @@
       "version": 1,
       "part": 2,
       "chapter_count": 1
+    },
+    {
+      "id": "jerusalem-part-03",
+      "file": "notes/03-christianity.md",
+      "title": "第三部分 · 基督教：圣城的重建与裂缝",
+      "label": "第三部分 · 基督教",
+      "display_title": "圣城的重建与裂缝\n第三部分 · 基督教",
+      "summary": "第15—16章图文蒸馏 · 七节点阅读地图 · 圣城再造与战争中的权力转换",
+      "reading_boundary": "依据第三部分题辞、第15—16章正文及注释整理，PDF第321—372页；未扩读第四部分。",
+      "source_ranges": [
+        {
+          "section": "第三部分题辞",
+          "pdf_pages": [
+            321,
+            322
+          ]
+        },
+        {
+          "section": "第15章正文及注释",
+          "pdf_pages": [
+            323,
+            354
+          ]
+        },
+        {
+          "section": "第16章正文及注释",
+          "pdf_pages": [
+            355,
+            372
+          ]
+        }
+      ],
+      "status": "依据第15—16章正文及注释",
+      "version": 1,
+      "part": 3,
+      "chapter_count": 2
     }
   ],
-  "reading_progress": "第二部分 · 第14章",
+  "reading_progress": "第三部分 · 第15—16章",
   "parts": [
     {
       "title": "犹太教",
@@ -111,8 +147,8 @@
     },
     {
       "title": "基督教",
-      "note_id": null,
-      "status": "正文尚未蒸馏"
+      "note_id": "jerusalem-part-03",
+      "status": "已整理第15—16章"
     },
     {
       "title": "伊斯兰教",
