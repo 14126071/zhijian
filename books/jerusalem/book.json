@@ -416,9 +416,115 @@
       "version": 1,
       "part": 8,
       "chapter_count": 8
+    },
+    {
+      "id": "jerusalem-part-09",
+      "file": "notes/09-zionism.md",
+      "title": "第九部分 · 犹太复国主义：家园、国家与分隔之城",
+      "label": "第九部分 · 犹太复国主义",
+      "display_title": "家园、国家与分隔之城\n第九部分 · 犹太复国主义",
+      "summary": "第42—53章图文蒸馏 · 战时承诺与民族家园 · 1948年战争、城市分隔与六日战争",
+      "reading_boundary": "依据第九部分题辞、第42—53章正文及注释整理，PDF第798—1061页，共264页。主线止于1967年；未扩读后记。三份历史文件的措辞及开罗会议年份另作外部核对并标注来源。",
+      "source_ranges": [
+        {
+          "section": "第九部分题辞",
+          "pdf_pages": [
+            798,
+            799
+          ]
+        },
+        {
+          "section": "第42章正文及注释",
+          "pdf_pages": [
+            800,
+            819
+          ]
+        },
+        {
+          "section": "第43章正文及注释",
+          "pdf_pages": [
+            820,
+            845
+          ]
+        },
+        {
+          "section": "第44章正文及注释",
+          "pdf_pages": [
+            846,
+            861
+          ]
+        },
+        {
+          "section": "第45章正文及注释",
+          "pdf_pages": [
+            862,
+            891
+          ]
+        },
+        {
+          "section": "第46章正文及注释",
+          "pdf_pages": [
+            892,
+            914
+          ]
+        },
+        {
+          "section": "第47章正文及注释",
+          "pdf_pages": [
+            915,
+            930
+          ]
+        },
+        {
+          "section": "第48章正文及注释",
+          "pdf_pages": [
+            931,
+            957
+          ]
+        },
+        {
+          "section": "第49章正文及注释",
+          "pdf_pages": [
+            958,
+            982
+          ]
+        },
+        {
+          "section": "第50章正文及注释",
+          "pdf_pages": [
+            983,
+            1012
+          ]
+        },
+        {
+          "section": "第51章正文及注释",
+          "pdf_pages": [
+            1013,
+            1028
+          ]
+        },
+        {
+          "section": "第52章正文及注释",
+          "pdf_pages": [
+            1029,
+            1042
+          ]
+        },
+        {
+          "section": "第53章正文及注释",
+          "pdf_pages": [
+            1043,
+            1061
+          ]
+        }
+      ],
+      "status": "依据第42—53章正文及注释",
+      "version": 1,
+      "part": 9,
+      "chapter_count": 12
     }
   ],
-  "reading_progress": "第八部分 · 第34—41章",
+  "reading_progress": "第九部分 · 第42—53章（后记未读）",
   "parts": [
     {
       "title": "犹太教",
@@ -462,8 +568,8 @@
     },
     {
       "title": "犹太复国主义",
-      "note_id": null,
-      "status": "正文尚未蒸馏"
+      "note_id": "jerusalem-part-09",
+      "status": "已整理第42—53章"
     }
   ]
 }
