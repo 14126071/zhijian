@@ -181,9 +181,87 @@
       "version": 1,
       "part": 4,
       "chapter_count": 4
+    },
+    {
+      "id": "jerusalem-part-05",
+      "file": "notes/05-crusades.md",
+      "title": "第五部分 · 十字军东征：圣战、王国与谈判",
+      "label": "第五部分 · 十字军东征",
+      "display_title": "圣战、王国与谈判\n第五部分 · 十字军东征",
+      "summary": "第21—28章图文蒸馏 · 八章阅读地图 · 王国生存、圣地用途与谈判安排",
+      "reading_boundary": "依据第五部分题辞、第21—28章正文及注释整理，PDF第451—588页；未扩读第六部分。",
+      "source_ranges": [
+        {
+          "section": "第五部分题辞",
+          "pdf_pages": [
+            451,
+            452
+          ]
+        },
+        {
+          "section": "第21章正文及注释",
+          "pdf_pages": [
+            453,
+            470
+          ]
+        },
+        {
+          "section": "第22章正文及注释",
+          "pdf_pages": [
+            471,
+            480
+          ]
+        },
+        {
+          "section": "第23章正文及注释",
+          "pdf_pages": [
+            481,
+            504
+          ]
+        },
+        {
+          "section": "第24章正文及注释",
+          "pdf_pages": [
+            505,
+            523
+          ]
+        },
+        {
+          "section": "第25章正文及注释",
+          "pdf_pages": [
+            524,
+            534
+          ]
+        },
+        {
+          "section": "第26章正文及注释",
+          "pdf_pages": [
+            535,
+            555
+          ]
+        },
+        {
+          "section": "第27章正文及注释",
+          "pdf_pages": [
+            556,
+            567
+          ]
+        },
+        {
+          "section": "第28章正文及注释",
+          "pdf_pages": [
+            568,
+            588
+          ]
+        }
+      ],
+      "status": "依据第21—28章正文及注释",
+      "version": 1,
+      "part": 5,
+      "chapter_count": 8
     }
   ],
-  "reading_progress": "第四部分 · 第17—20章",
+  "reading_progress": "第五部分 · 第21—28章",
   "parts": [
     {
       "title": "犹太教",
@@ -207,8 +285,8 @@
     },
     {
       "title": "十字军东征",
-      "note_id": null,
-      "status": "正文尚未蒸馏"
+      "note_id": "jerusalem-part-05",
+      "status": "已整理第21—28章"
     },
     {
       "title": "马木鲁克",
