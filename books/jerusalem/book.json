@@ -259,9 +259,45 @@
       "version": 1,
       "part": 5,
       "chapter_count": 8
+    },
+    {
+      "id": "jerusalem-part-06",
+      "file": "notes/06-mamluks.md",
+      "title": "第六部分 · 马木鲁克：圣地营建与城市困境",
+      "label": "第六部分 · 马木鲁克",
+      "display_title": "圣地营建与城市困境\n第六部分 · 马木鲁克",
+      "summary": "第29—30章图文蒸馏 · 七节点阅读地图 · 瓦克夫与圣城三层权力",
+      "reading_boundary": "依据第六部分题辞、第29—30章正文及注释整理，PDF第589—618页；未扩读第七部分。",
+      "source_ranges": [
+        {
+          "section": "第六部分题辞",
+          "pdf_pages": [
+            589,
+            590
+          ]
+        },
+        {
+          "section": "第29章正文及注释",
+          "pdf_pages": [
+            591,
+            605
+          ]
+        },
+        {
+          "section": "第30章正文及注释",
+          "pdf_pages": [
+            606,
+            618
+          ]
+        }
+      ],
+      "status": "依据第29—30章正文及注释",
+      "version": 1,
+      "part": 6,
+      "chapter_count": 2
     }
   ],
-  "reading_progress": "第五部分 · 第21—28章",
+  "reading_progress": "第六部分 · 第29—30章",
   "parts": [
     {
       "title": "犹太教",
@@ -290,8 +326,8 @@
     },
     {
       "title": "马木鲁克",
-      "note_id": null,
-      "status": "正文尚未蒸馏"
+      "note_id": "jerusalem-part-06",
+      "status": "已整理第29—30章"
     },
     {
       "title": "奥斯曼",
