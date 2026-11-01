@@ -522,9 +522,58 @@
       "version": 1,
       "part": 9,
       "chapter_count": 12
+    },
+    {
+      "id": "jerusalem-epilogue",
+      "file": "notes/10-epilogue.md",
+      "title": "后记 · 谁拥有圣城，谁打开清晨",
+      "label": "后记 · 从那时到今晨",
+      "display_title": "谁拥有圣城，\n谁打开清晨",
+      "summary": "后记图文蒸馏 · 战后城市与和平谈判 · 共享的条件与三处圣地的清晨",
+      "reading_boundary": "依据后记题辞、三个小节及全部注释整理，PDF第1062—1107页，共46页。历史语境止于作者约2010—2011年写作时；未扩读附录，亦未补读序幕。谈判状态另核对原始文件。",
+      "source_ranges": [
+        {
+          "section": "后记题辞与小节标题",
+          "pdf_pages": [
+            1062,
+            1063
+          ]
+        },
+        {
+          "section": "从那时到现在（续；结尾在1081页）",
+          "pdf_pages": [
+            1064,
+            1080
+          ]
+        },
+        {
+          "section": "明天（含前节结尾）",
+          "pdf_pages": [
+            1081,
+            1092
+          ]
+        },
+        {
+          "section": "今晨（含前节结尾及注释起始）",
+          "pdf_pages": [
+            1093,
+            1102
+          ]
+        },
+        {
+          "section": "后记注释（续）",
+          "pdf_pages": [
+            1103,
+            1107
+          ]
+        }
+      ],
+      "status": "依据后记正文及注释",
+      "version": 1,
+      "parent_note_id": "jerusalem-part-09"
     }
   ],
-  "reading_progress": "第九部分 · 第42—53章（后记未读）",
+  "reading_progress": "九部分正文与后记已整理",
   "parts": [
     {
       "title": "犹太教",
