@@ -131,9 +131,59 @@
       "version": 1,
       "part": 3,
       "chapter_count": 2
+    },
+    {
+      "id": "jerusalem-part-04",
+      "file": "notes/04-islam.md",
+      "title": "第四部分 · 伊斯兰教：圣地重塑与王朝更替",
+      "label": "第四部分 · 伊斯兰教",
+      "display_title": "圣地重塑与王朝更替\n第四部分 · 伊斯兰教",
+      "summary": "第17—20章图文蒸馏 · 八节点阅读地图 · 建筑辨认与社群政策的变化",
+      "reading_boundary": "依据第四部分题辞、第17—20章正文及注释整理，PDF第373—450页；未扩读第五部分。",
+      "source_ranges": [
+        {
+          "section": "第四部分题辞",
+          "pdf_pages": [
+            373,
+            374
+          ]
+        },
+        {
+          "section": "第17章正文及注释",
+          "pdf_pages": [
+            375,
+            395
+          ]
+        },
+        {
+          "section": "第18章正文及注释",
+          "pdf_pages": [
+            396,
+            417
+          ]
+        },
+        {
+          "section": "第19章正文及注释",
+          "pdf_pages": [
+            418,
+            426
+          ]
+        },
+        {
+          "section": "第20章正文及注释",
+          "pdf_pages": [
+            427,
+            450
+          ]
+        }
+      ],
+      "status": "依据第17—20章正文及注释",
+      "version": 1,
+      "part": 4,
+      "chapter_count": 4
     }
   ],
-  "reading_progress": "第三部分 · 第15—16章",
+  "reading_progress": "第四部分 · 第17—20章",
   "parts": [
     {
       "title": "犹太教",
@@ -152,8 +202,8 @@
     },
     {
       "title": "伊斯兰教",
-      "note_id": null,
-      "status": "正文尚未蒸馏"
+      "note_id": "jerusalem-part-04",
+      "status": "已整理第17—20章"
     },
     {
       "title": "十字军东征",
