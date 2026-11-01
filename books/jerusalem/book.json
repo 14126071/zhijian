@@ -338,9 +338,87 @@
       "version": 1,
       "part": 7,
       "chapter_count": 3
+    },
+    {
+      "id": "jerusalem-part-08",
+      "file": "notes/08-empires.md",
+      "title": "第八部分 · 帝国：保护、考古与城墙之外",
+      "label": "第八部分 · 帝国",
+      "display_title": "保护、考古与城墙之外\n第八部分 · 帝国",
+      "summary": "第34—41章图文蒸馏 · 列强保护关系 · 城外扩张、考古与人群流动",
+      "reading_boundary": "依据第八部分题辞、第34—41章正文及注释整理，PDF第668—797页；未扩读第九部分。",
+      "source_ranges": [
+        {
+          "section": "第八部分题辞",
+          "pdf_pages": [
+            668,
+            669
+          ]
+        },
+        {
+          "section": "第34章正文及注释",
+          "pdf_pages": [
+            670,
+            679
+          ]
+        },
+        {
+          "section": "第35章正文及注释",
+          "pdf_pages": [
+            680,
+            696
+          ]
+        },
+        {
+          "section": "第36章正文及注释",
+          "pdf_pages": [
+            697,
+            707
+          ]
+        },
+        {
+          "section": "第37章正文及注释",
+          "pdf_pages": [
+            708,
+            747
+          ]
+        },
+        {
+          "section": "第38章正文及注释",
+          "pdf_pages": [
+            748,
+            757
+          ]
+        },
+        {
+          "section": "第39章正文及注释",
+          "pdf_pages": [
+            758,
+            771
+          ]
+        },
+        {
+          "section": "第40章正文及注释",
+          "pdf_pages": [
+            772,
+            789
+          ]
+        },
+        {
+          "section": "第41章正文及注释",
+          "pdf_pages": [
+            790,
+            797
+          ]
+        }
+      ],
+      "status": "依据第34—41章正文及注释",
+      "version": 1,
+      "part": 8,
+      "chapter_count": 8
     }
   ],
-  "reading_progress": "第七部分 · 第31—33章",
+  "reading_progress": "第八部分 · 第34—41章",
   "parts": [
     {
       "title": "犹太教",
@@ -379,8 +457,8 @@
     },
     {
       "title": "帝国",
-      "note_id": null,
-      "status": "正文尚未蒸馏"
+      "note_id": "jerusalem-part-08",
+      "status": "已整理第34—41章"
     },
     {
       "title": "犹太复国主义",
