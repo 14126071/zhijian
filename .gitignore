@@ -7,3 +7,8 @@ node_modules/
 .env.*
 *.pdf
 !books/*/exports/*.pdf
+
+/writings/*/experiments/__pycache__/
+/writings/*/experiments/mini-lm-output/
+/writings/*/project.md
+/writings/*/workshop.md

@@ -1,0 +1,36 @@
+{
+  "observed_on": "2026-11-01",
+  "python": "3.12",
+  "platform": "Darwin arm64",
+  "note": "Teaching-only synthetic grammar; validation observed during training; not a benchmark.",
+  "runs": [
+    {
+      "torch": "2.15.0",
+      "device": "cpu",
+      "model": "bigram",
+      "parameters": 961,
+      "vocab": 31,
+      "context": 24,
+      "steps": 400,
+      "initial_valid_loss": 4.009249210357666,
+      "final_valid_loss": 2.3417093753814697,
+      "causal_check": true,
+      "reload_check": true,
+      "sample": "service hisdse.4k62\ns33cor\nmmi42li06 yit0 c7c38wout wt.63d9sec orpekv4yyp7y k06111w044wpvis9901olulvi450.0ev010ermiseap602l.1pyy9sapss7k0 111026.1\nu..\ny ksokehl02d8 d m"
+    },
+    {
+      "torch": "2.15.0",
+      "device": "cpu",
+      "model": "gpt",
+      "parameters": 60799,
+      "vocab": 31,
+      "context": 24,
+      "steps": 400,
+      "initial_valid_loss": 3.542649269104004,
+      "final_valid_loss": 0.1998739391565323,
+      "causal_check": true,
+      "reload_check": true,
+      "sample": "service api reads key k033 result hit.\nservice worker reads key k038 result hit.\nservice api reads key k010 result miss.\nservice api reads key k024 result miss.\nservice"
+    }
+  ]
+}

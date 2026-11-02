@@ -1,0 +1,110 @@
+{
+  "id": "backend-to-llm",
+  "title": "从后端到大模型：原理与动手学习手册",
+  "kind": "book",
+  "description": "从后端程序员的两个问题出发：多久能理解并亲手做一个模型？它与推荐系统究竟有何联系与区别？用最小数学、图解与可运行的CPU实验逐步回答。",
+  "status": "草稿",
+  "writing_progress": "第一版：导读与9章正文已写；含CPU教学实验，等待逐章学习与修订。",
+  "chapters": [
+    {
+      "id": "backend-to-llm-overview",
+      "file": "chapters/00-overview.md",
+      "title": "导读 · 把大模型变成能理解、能验证的系统",
+      "label": "全书地图",
+      "summary": "从后端经验出发，走通概率学习、Transformer、小模型训练与工程应用的完整路径。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-orientation",
+      "file": "chapters/01-orientation.md",
+      "title": "第1章 · 入门不是看完一串名词",
+      "label": "入门与时间",
+      "summary": "将理解、训练、微调和部署分开，给学习时间设前提，用可检验的成果代替模糊熟悉感。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-learning",
+      "file": "chapters/02-learning.md",
+      "title": "第2章 · 一个模型究竟怎样学会预测",
+      "label": "概率与训练",
+      "summary": "用可手算的概率例子解释logits、交叉熵、反向传播、泛化与数据泄漏。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-recommendation",
+      "file": "chapters/03-recommendation.md",
+      "title": "第3章 · 推荐与生成：差异之下的共同语言",
+      "label": "推荐与生成",
+      "summary": "把业务任务、结构和目标分开，比较点击预测、召回和下一个token预测，并看生成式推荐的交汇。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-transformer",
+      "file": "chapters/04-transformer.md",
+      "title": "第4章 · 走过一层Transformer",
+      "label": "张量与注意力",
+      "summary": "沿token、embedding、因果注意力、FFN和词表投影，跟踪维度并理解训练并行与逐步生成。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-training",
+      "file": "chapters/05-training.md",
+      "title": "第5章 · 预训练、微调与偏好学习分别改变什么",
+      "label": "训练阶段",
+      "summary": "按数据、目标和权重变化理解预训练、SFT、偏好学习与LoRA，避免把训练路线当固定流水线。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-lab",
+      "file": "chapters/06-lab.md",
+      "title": "第6章 · 在CPU上训练自己的字符语言模型",
+      "label": "动手实验",
+      "summary": "比较bigram和微型Transformer，运行训练、留出评估、因果检查和权重重载，并正确解释结果。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-serving",
+      "file": "chapters/07-serving.md",
+      "title": "第7章 · 从一个模型到一个推理服务",
+      "label": "推理与性能",
+      "summary": "解释prefill、decode、KV Cache、显存估算、批处理及服务指标，用测量决定优化次序。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-applications",
+      "file": "chapters/08-applications.md",
+      "title": "第8章 · 先做对照，再决定RAG还是微调",
+      "label": "应用与评估",
+      "summary": "用内部文档问答示例明确检索、提示、微调、工具调用的职责，先设计可追踪的评估闭环。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    },
+    {
+      "id": "backend-to-llm-practice",
+      "file": "chapters/09-practice.md",
+      "title": "第9章 · 八周学习计划与入门自测",
+      "label": "练习与复盘",
+      "summary": "用每周成果、评分标准和追问方向组织持续学习，避免把看完资料误当作掌握能力。",
+      "status": "草稿",
+      "version": 1,
+      "material_note": "第一版学习草稿 · 原理与动手各半 · 事实引用、教学示例和学习估计分别标明"
+    }
+  ]
+}

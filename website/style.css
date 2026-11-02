@@ -9,3 +9,23 @@
 @media(max-width:850px){.book-art h3{text-align:left;font-size:29px}}
 @media(max-width:640px){.sidebar{visibility:hidden}.menu-open .sidebar{visibility:visible}}
 .side-notes{padding:0 9px 0 24px;max-height:30vh;overflow:auto}.side-notes a{display:block;padding:8px 8px;color:#77766e;font-size:11px;border-left:1px solid #d7d8ca}.side-notes a:hover{color:#1b365d;background:#e9e8df}.toc{max-height:calc(100dvh - 80px);overflow:auto;padding-right:7px}.toc a{padding-top:6px;padding-bottom:6px}.outline-row a{color:#1b365d}
+
+/* Writing uses the same paper, ink, and reading controls. */
+.sidebar{overflow-y:auto}.sidebar-footer{padding-top:24px;flex-shrink:0}
+.writing-work{margin-top:26px;padding:30px;background:var(--ivory);border:1px solid var(--line);border-radius:5px}.writing-work h2{font-size:30px;line-height:1.5;margin:14px 0}.work-description{font-family:var(--serif);font-size:17px;color:var(--muted);line-height:1.9;max-width:730px}.work-progress{font-size:11px;color:var(--muted);line-height:1.9;margin:17px 0}.work-contents{margin-top:27px}.work-contents .outline-row{display:flex;gap:20px;justify-content:space-between;border-top:1px solid var(--line);padding:15px 0;font-size:13px;line-height:1.8}.work-contents small{white-space:nowrap}.work-contents a:hover{color:var(--blue)}
+.article pre{max-width:100%;overflow-x:auto;padding:18px;background:#eeeee6;border:1px solid var(--line);border-radius:3px;line-height:1.65;letter-spacing:0}.article pre code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:13px;padding:0;background:none}.article table{display:block;overflow-x:auto}.article :not(pre)>code{overflow-wrap:anywhere}
+@media(max-width:640px){.writing-work{padding:22px}.writing-work h2{font-size:27px}.work-contents .outline-row{font-size:12px;gap:12px}.work-contents small{font-size:9px}.book-stats{flex-wrap:wrap}}
+
+/* Keep all co-reading books in one bounded scroll area. */
+.sidebar{overflow:hidden}
+.sidebar>:not(.side-books){flex-shrink:0}
+.side-books{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable}
+.side-books>.nav-label{position:sticky;top:0;z-index:1;background:#f0efe7;padding-top:5px;padding-bottom:5px}
+.side-notes{max-height:none;overflow:visible}
+@media(max-height:760px){
+  .sidebar{padding-top:20px;padding-bottom:20px}
+  .searchbox{margin-top:20px;margin-bottom:16px}
+  .side-books{margin-top:20px}
+  .sidebar-footer{padding-top:12px}
+  .sidebar-footer small,.sidebar-footer .edition{display:none}
+}

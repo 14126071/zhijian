@@ -1,6 +1,6 @@
 # 纸间 · 网站
 
-静态页面提供书架、图文阅读、搜索、图解放大、收藏、字号与阅读位置。内容源在 `books/`，生成物在 `website/dist/`。
+静态页面提供书架、图文阅读、搜索、图解放大、收藏、字号与阅读位置。写书与专题另有独立入口 `#/writing`，正文路由为 `#/write/<chapter-id>`，支持同样的图文阅读、搜索与收藏。内容源在 `books/` 与 `writings/`，生成物在 `website/dist/`。
 
 在项目根目录运行 `npm ci`、`npm run build`，再用本地 HTTP 服务预览。完整运行方式、内容约定及 GitHub Pages 配置见 [项目说明](../README.md)。
 

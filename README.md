@@ -1,6 +1,6 @@
 # 纸间 · zhijian
 
-把一本书，读成自己的理解。一份以 Markdown、图解和静态网站保存的个人读书档案。
+把一本书，读成自己的理解。一份以 Markdown、图解和静态网站保存的个人读书与创作档案。
 
 书架包含《耶路撒冷三千年》和《明朝那些事儿》的阶段性笔记。实际已读范围以各书的 `book.json` 和笔记来源说明为准。
 
@@ -25,6 +25,9 @@ books/<book-id>/book.json     书籍、笔记清单、阅读范围和进度
 books/<book-id>/notes/*.md    原始笔记，按稳定 block ID 分块
 books/<book-id>/assets/       SVG 图解源与 PNG 图片
 books/<book-id>/exports/      可选的笔记导出文件
+writings/<work-id>/work.json  写书与专题的清单、状态和进度
+writings/<work-id>/chapters/  稳定章节与 block ID 的正文
+writings/<work-id>/assets/    创作图解；experiments/ 可选实验源
 website/                     页面和构建脚本
 website/dist/                自动生成，不直接修改、不提交
 ```
@@ -34,6 +37,8 @@ website/dist/                自动生成，不直接修改、不提交
 原书 PDF 保留在维护者自己的电脑上，不放进仓库。`source_pdf` 是本地阅读来源记录，不是网站下载地址；换电脑继续阅读时需要更新为自己的文件路径。网站构建不需要读取原书。
 
 分段共读和追问在 AI 聊天工具中进行：提供 PDF，明确这次的页码或章节，整理文字与图解，再保存到 `books/`。网站仅展示已整理的内容，没有在线上传、生成或聊天后端。项目约定见 [AGENTS.md](AGENTS.md)；`distill-books` 共读技能当前由维护者另行安装，没有打包在此仓库中。
+
+新增“写书与专题”模块：[本地入口](http://127.0.0.1:4173/#/writing)。使用另行安装的 `coauthor-books` 技能，在聊天中从想法与问题出发共同写作，不要求 PDF。创作源在 `writings/`；`project.md` 和 `workshop.md` 用于跨对话接续，不进入网页构建。网页仅包含列入章节清单的正文与公开资源；实验代码不自动复制到网站，必要代码可在正文中阅读。当前首部作品为《从后端到大模型：原理与动手学习手册》第一版草稿。
 
 收藏、字号和阅读位置仅保存于各自浏览器，不进行跨设备同步。
 
